@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/pusher/pusher-websocket-swift'
   s.license          = 'MIT'
   s.author           = { "Hamilton Chapman" => "hamchapman@gmail.com" }
-  s.source           = { git: "https://github.com/pusher/pusher-websocket-swift.git", tag: s.version.to_s }
+  s.source           = { git: "https://github.com/ozinc/pusher-websocket-swift/pusher-websocket-swift.git", tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/pusher'
 
   s.swift_version = '4.2'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'CryptoSwift', '~> 0.9'
   s.dependency 'ReachabilitySwift', '4.3.0'
-  s.dependency 'Starscream', '~> 3.0.5'
+  s.dependency 'Starscream', '~> 3.0'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
